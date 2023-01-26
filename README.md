@@ -7,7 +7,7 @@
 
 ### In-Class Assignments
 - [ICA1](https://docs.google.com/document/d/1cN7cFBf0bdsXWOqNzF33TDQ3SF6bgxWDFgg4klglmMI/edit?usp=sharing)
-- ICA2
+- [ICA2](https://docs.google.com/document/d/1mYTQ9S8UFY-YQizmKMlFNQxedMOU6a5hCQXeCZaATXk/edit?usp=sharing)
 - ICA3
 - ICA4
 - ICA5
@@ -24,7 +24,7 @@
 
 ### Weekly Assignments
 - [WA1](https://sura8662.github.io/WA/WA1)
-- WA2
+- [WA2](https://sura8662.github.io/WA/WA2)
 - WA3
 - WA4
 - WA5
