@@ -1,0 +1,9 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    background: url(../IMG/overlay1.png) no-repeat,
+                url(../IMG/overlay2.png) no-repeat,
+                url(../IMG/cricket.jpeg) no-repeat;
+    background-size: contain;
+}
