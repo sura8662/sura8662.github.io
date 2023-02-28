@@ -13,7 +13,7 @@
 - [ICA4](https://sura8662.github.io/ICA/ICA4)
 - [ICA5](https://sura8662.github.io/ICA/ICA5/ICA5)
 - ICA6
-- ICA7
+- [ICA7](https://sura8662.github.io/ICA/ICA7)
 - ICA8
 - ICA9
 - ICA10
