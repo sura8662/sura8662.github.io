@@ -30,7 +30,7 @@
 - [WA4](https://sura8662.github.io/WA/WA4)
 - [WA5](https://sura8662.github.io/WA/WA5)
 - [WA6](https://sura8662.github.io/WA/WA6/WA6)
-- WA7
+- [WA7](https://sura8662.github.io/WA/WA7)
 - WA8
 - WA9
 - WA10
