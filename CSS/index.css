@@ -37,7 +37,7 @@ body {
 }
 
 nav {
-    background-color: black;
+    background-color: blue;
     padding: 0.5em;
     position: sticky;
     top: 0px;
@@ -61,3 +61,27 @@ nav a:hover {
     background-color: yellow;
     color: black;
 }
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: right;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h1 {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+  }
