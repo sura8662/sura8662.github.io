@@ -38,7 +38,7 @@ nav a:hover {
     color: black;
 }
 
-nav a.active {
+nav a:visited {
     background-color: yellow;
     color: black;
 }
