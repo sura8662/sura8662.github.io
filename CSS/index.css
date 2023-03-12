@@ -11,8 +11,8 @@ body {
     text-align: right;
     font-family: "Helvetica";
 
-    animation-duration: 3s;
     animation-name: slidein;
+    animation-duration: 3s;
 }
 
 @keyframes slidein {
@@ -42,7 +42,7 @@ img {
     float: right;
     padding: 5px;
 }
-  
+
 .row::after {
     content: "";
     clear: both;
@@ -52,8 +52,13 @@ img {
 @media screen and (max-width: 600px) {
     .wrapper {
         grid-template-columns: 1fr 150px;
+        animation: none;
     }
     h1 {
         text-align: right;
+        padding: 0px 5px 0px 1.5px;
+    }
+    small {
+        display: none;
     }
 }
