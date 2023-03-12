@@ -1,0 +1,44 @@
+body {
+    background: yellow 
+                url("../IMG/r32.png") no-repeat right fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+
+    text-align: right;
+    font-family: "Helvetica";
+}
+
+nav {
+    background-color: black;
+    padding: 0.5em;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+nav a:active {
+    background-color: yellow;
+    color: black;
+}
