@@ -2,6 +2,14 @@ body {
     background: yellow 
                 url("../IMG/r32.png") no-repeat right fixed;
     background-size: cover;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+
+    text-align: right;
+    font-family: "Helvetica";
 
     animation-duration: 3s;
     animation-name: slidein;
@@ -19,16 +27,10 @@ body {
     }
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: 1fr 300px;
-
-    text-align: right;
-    font-family: "Helvetica";
-}
-
 @media screen and (max-width: 600px) {
-    grid-template-columns: 1fr 100px;
+    .wrapper {
+        grid-template-columns: 1fr 100px;
+    }
     nav {
         display: none;
     }
