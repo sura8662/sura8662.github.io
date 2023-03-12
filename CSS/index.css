@@ -2,6 +2,21 @@ body {
     background: yellow 
                 url("../IMG/r32.png") no-repeat right fixed;
     background-size: cover;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 .wrapper {
@@ -10,6 +25,13 @@ body {
 
     text-align: right;
     font-family: "Helvetica";
+}
+
+@media only screen and (max-width: 600px) {
+    grid-template-columns: 1fr 150px;
+    nav {
+        display: none;
+    }
 }
 
 nav {
