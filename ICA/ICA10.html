@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>CSS</title>
+    <style>
+        .msgBox {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 242px;
+            border-radius: 10px;
+            background-color: #eee;
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.1));
+        }
+
+        .msgBox p {
+            line-height: 1.5;
+            padding: 10px 20px;
+            color: #333;
+            font-family: "Helvetica";
+            background-position: 25px center;
+            background-repeat: no-repeat;
+        }
+
+        .msgBox button {
+            background: none;
+            border: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-size: 1.1rem;
+            color: #aaa;
+        }
+      </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div></div>
+        <div>
+            <h1>KRISHNA KUMAR</h1>
+
+            <p>I'm a data science student with an interest in improving the way we interact with statistics.</p>
+
+            <div class="row">
+              <div class="column">
+                <a href="https://www.youtube.com/@KrishnaKumar-bt3fd/videos"><img src="../IMG/152810.png" alt="YouTube logo"></a>
+              </div>
+              <div class="column">
+                <a href="https://github.com/sura8662/sura8662.github.io"><img src="../IMG/25231.png" alt="GitHub logo"></a>
+              </div>
+            </div>
+
+            <button>Display message box</button>
+        </div>
+    </div>
+
+    <script>
+        const btn = document.querySelector("button");
+        btn.addEventListener("click", () => displayMessage("Why do I have a picture of a car? Because it's mine and I think it looks cool.", "chat"));
+
+        function displayMessage(msgText, msgType) {
+            const html = document.querySelector("html");
+
+            const panel = document.createElement("div");
+            panel.setAttribute("class", "msgBox");
+            html.appendChild(panel);
+
+            const msg = document.createElement("p");
+            msg.textContent = msgText;
+            panel.appendChild(msg);
+
+            const closeBtn = document.createElement("button");
+            closeBtn.textContent = "x";
+            panel.appendChild(closeBtn);
+
+            closeBtn.onclick = function() {
+                panel.parentNode.removeChild(panel);
+            }
+
+            if(msgType === "chat") {
+                panel.style.backgroundColor = "yellow";
+            } else {
+                msg.style.paddingLeft = "20px";
+            }
+        }
+    </script>
+</body>
+</html>
