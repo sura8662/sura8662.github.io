@@ -32,8 +32,8 @@
 - [WA6](https://sura8662.github.io/WA/WA6/WA6)
 - [WA7](https://sura8662.github.io/WA/WA7)
 - WA8
-- WA9
-- WA10
+- [WA9](https://sura8662.github.io/WA/WA9)
+- [WA10](https://sura8662.github.io/WA/WA10)
 - WA11
 - WA12
 - WA13
