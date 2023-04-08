@@ -1,0 +1,84 @@
+body {
+    background: yellow 
+                url("../IMG/kanye2.png") no-repeat right fixed;
+    background-size: cover;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+
+    text-align: right;
+    font-family: "Helvetica";
+
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+h1 {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+.column {
+    float: right;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+button {
+    background-color: black;
+    color: yellow;
+    border: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#progress {
+    width: 100%;
+    background-color: black;
+}
+  
+#bar {
+    width: 1%;
+    height: 10px;
+    background-color: yellow;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        grid-template-columns: 1fr 150px;
+        animation: none;
+    }
+    h1 {
+        text-align: right;
+        padding: 0px 5px 0px 1.5px;
+    }
+    small {
+        display: none;
+    }
+}
