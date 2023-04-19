@@ -21,6 +21,10 @@ h1 {
     color: yellow;
 }
 
+#quote {
+    font-weight: bold;
+}
+
 img {
     width: 23px;
     height: 17px;
