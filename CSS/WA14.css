@@ -1,6 +1,5 @@
 body {
-    background: yellow 
-                url("../IMG/kanye3.png") no-repeat bottom fixed;
+    background: yellow;
     font-family: "Helvetica";
 }
 
@@ -10,8 +9,8 @@ div {
     width: 300px;
     text-align: center;
     position: fixed;
-    top: 33%;
-    bottom: 66%;
+    top: 40%;
+    bottom: 60%;
     left: 0;
     right: 0;
 }
