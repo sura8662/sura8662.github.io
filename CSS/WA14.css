@@ -1,0 +1,28 @@
+body {
+    background: yellow 
+                url("../IMG/kanye3.png") no-repeat bottom fixed;
+    font-family: "Helvetica";
+}
+
+div {
+    margin: auto;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    position: fixed;
+    top: 33%;
+    bottom: 66%;
+    left: 0;
+    right: 0;
+}
+
+h1 {
+    background-color: black;
+    color: yellow;
+}
+
+img {
+    width: 23px;
+    height: 17px;
+    vertical-align: middle;
+}
