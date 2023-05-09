@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIP, CAPTAIN, AND CREW</title>
+    <link rel="stylesheet" href="JS.css">
+    <script src="JS.js"></script>
+</head>
+<body>
+    <div class="game">
+        <h1>SHIP, CAPTAIN, AND CREW</h1>
+        <p>Roll the dice up to three times to try and get a 6 (the ship), a 5 (the captain), and a 4 (the crew). If you get all three, the remaining two dice (the cargo) are added together to determine your score.</p>
+        <div class="box">
+            <p>Rolls Left: <span id="rollsLeft"></span></p>
+            <div id="dice"></div>
+            <button id="rollButton" onclick="rollDice()">Roll</button>
+        </div>
+        <p>Score: <span id="score"></span></p>
+        <button id="resetButton" onclick="resetGame()">New Game</button>
+    </div>
+</body>
+</html>
